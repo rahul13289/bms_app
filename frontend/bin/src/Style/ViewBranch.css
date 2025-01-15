@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.view-section {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.view-section h2,
+.view-section h3 {
+    color: #333333;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.view-section h2 {
+    text-align: center;
+}
+
+.branch-details {
+    padding: 30px;
+    text-align: left;
+}
+
+.branch-details .table-1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.branch-details .table-1 .table-row,
+.branch-details .table-2 .table-row,
+.branch-details .table-3 .table-row,
+.branch-details .table-4 .table-row,
+.branch-details .table-5 .table-row,
+.branch-details .table-6 .table-row {
+    width: 50%;
+}
+
+.table-1 th,
+.table-2 th,
+.table-3 th,
+.table-4 th,
+.table-5 th,
+.table-6 th {
+    width: 40%;
+}
+
+.branch-details th,
+.branch-details td {
+    text-align: left;
+    padding: 5px;
+}
+
+.branch-details .table-2 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.branch-details .table-3 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.branch-details .table-4 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.branch-details .table-5 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.branch-details .table-6 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.table-7 {
+    width: 100%;
+}
+
+
+.view-section .btn-discard {
+    background-color: white;
+    border: 1px solid rgb(4, 184, 255);
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgb(4, 184, 255);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+@media (max-width: 768px) {
+
+    .branch-details .table-1,
+    .branch-details .table-2,
+    .branch-details .table-3,
+    .branch-details .table-4,
+    .branch-details .table-5,
+    .branch-details .table-6 {
+        display: block;
+    }
+
+    .branch-details .table-1 .table-row,
+    .branch-details .table-2 .table-row,
+    .branch-details .table-3 .table-row,
+    .branch-details .table-4 .table-row,
+    .branch-details .table-5 .table-row,
+    .branch-details .table-6 .table-row {
+        width: 100%;
+    }
+
+    .table-1 th,
+    .table-2 th,
+    .table-3 th,
+    .table-4 th,
+    .table-5 th,
+    .table-6 th {
+        width: 193px;
+    }
+
+    .branch-details {
+        padding: 6px;
+    }
+
+    .view-section th,
+    .view-section td {
+        font-size: 14px;
+    }
+
+    .view-section h3 {
+        font-size: 17px;
+    }
+
+    .view-section h2 {
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .view-section {
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .view-section .btn-discard {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
