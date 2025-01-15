@@ -1,0 +1,221 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.add form {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.add th,
+.add td {
+  text-align: center;
+}
+
+.add .addbank td input {
+  width: 96%;
+}
+
+.add h2,
+.add h3 {
+  color: #333333;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+
+
+.add input[type="text"],
+.add input[type="email"],
+.add input[type="number"],
+.add input[type="date"],
+.add select {
+  width: calc(50% - 20px);
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  outline: none;
+}
+
+.add input[type="text"]:focus,
+.add input[type="email"]:focus,
+.add select:focus {
+  border-color: black;
+
+}
+
+.add label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: gray;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.add .form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add .form-group>div {
+  flex: 1;
+}
+
+.add .form-group input {
+  width: 97%;
+  margin-top: -1px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.add .btn-submit {
+  background-color: rgb(4, 184, 255);
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: bolder;
+  border: none;
+  margin: 10px;
+}
+
+.add .btn-discard {
+  background-color: white;
+  border: 1px solid rgb(4, 184, 255);
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: bolder;
+  color: rgb(4, 184, 255);
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.add input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+label[for="status"] {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.btn-add {
+  border: none;
+  background-color: white;
+}
+
+.add .btn-add-1 {
+  color: rgb(4, 184, 255);
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.add .btn-delete {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.addbank td input {
+  width: 100%;
+  margin-top: -10px;
+
+}
+
+.add .form-single {
+  width: 50%;
+}
+
+.add .form-single input {
+  width: 97%;
+  margin-top: -1px;
+}
+
+@media (max-width: 768px) {
+
+  .add input[type="text"],
+  .add input[type="number"],
+  .add input[type="email"],
+  .add input[type="date"],
+  .add select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .add form {
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .add h2 {
+    font-size: 18px;
+  }
+
+  .add h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  .add tr th,
+  .add tr td {
+    font-size: 13px;
+  }
+
+  .add .form-group {
+    display: block;
+  }
+
+  .add .form-group input {
+    margin-top: -1px;
+  }
+
+  .add .form-single {
+    width: 100%;
+  }
+
+  .add .form-single input {
+    margin-top: 7px;
+  }
+
+  .add .btn-submit {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .add .btn-discard {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .add .btn-add-1 {
+    font-size: 23px;
+  }
+
+  .add .btn-delete {
+    font-size: 23px;
+  }
+
+}

@@ -1,0 +1,195 @@
+/* General Styling */
+.edit form {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.edit h2,
+.edit h3 {
+  color: #333333;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+
+/* Labels */
+.edit label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: gray;
+  font-family: bolder;
+  font-family: Arial, sans-serif;
+}
+
+.edit input[type="text"],
+.edit input[type="email"],
+.edit input[type="date"],
+.edit input[type="number"] {
+  width: 97%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: -1px;
+  font-size: 14px;
+
+}
+
+.edit input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+
+.edit .form-group {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.edit .form-group>div {
+  flex: 1;
+}
+
+.edit .bank-details {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.edit .bank-details h4 {
+  margin-bottom: 10px;
+}
+
+
+.edit .checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.edit .form-single {
+  width: 50%;
+}
+
+.btn-add {
+  border: none;
+  background-color: white;
+}
+
+.edit .btn-add-1 {
+  color: rgb(4, 184, 255);
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.edit .btn-delete {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.edit th,
+.edit td {
+  text-align: center;
+}
+
+.edit .addbank td input {
+  width: 96%;
+}
+
+.addbank td input {
+  width: 100%;
+  margin-top: -10px;
+
+}
+
+.edit .btn-submit {
+  background-color: rgb(4, 184, 255);
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: bolder;
+  border: none;
+  margin: 10px;
+}
+
+.edit .btn-discard {
+  background-color: white;
+  border: 1px solid rgb(4, 184, 255);
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: bolder;
+  color: rgb(4, 184, 255);
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+@media (max-width: 768px) {
+  .edit .form-group {
+    display: block;
+  }
+
+  .edit .form-group input {
+    margin-top: -1px;
+  }
+
+  .edit .form-single {
+    width: 100%;
+  }
+
+  .edit h2 {
+    font-size: 18px;
+  }
+
+  .edit h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  .edit tr th,
+  .edit tr td {
+    font-size: 13px;
+  }
+
+  .edit form {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .edit .btn-submit {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .edit .btn-discard {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .edit .btn-add-1 {
+    font-size: 23px;
+  }
+
+  .edit .btn-delete {
+    font-size: 23px;
+  }
+
+
+}
